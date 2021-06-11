@@ -1,0 +1,32 @@
+
+table {
+    border: 1px solid black;
+    width: 100%;
+  }
+  th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    align-items: center;
+    align-content: center;
+}  
+
+input {
+    width: 50%;
+    margin-bottom: 2%;
+}
+button {
+    width: 50%;
+}
